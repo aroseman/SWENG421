@@ -1,0 +1,10 @@
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\bin\Debug\421_Lab9.exe.config
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\bin\Debug\421_Lab9.exe
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\bin\Debug\421_Lab9.pdb
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\obj\Debug\421_Lab9.csprojResolveAssemblyReference.cache
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\obj\Debug\_421_Lab9.Properties.Resources.resources
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\obj\Debug\421_Lab9.csproj.GenerateResource.Cache
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\obj\Debug\421_Lab9.csproj.CoreCompileInputs.cache
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\obj\Debug\421_Lab9.exe
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\obj\Debug\421_Lab9.pdb
+C:\Users\whois\source\repos\421_Lab9\421_Lab9\obj\Debug\_421_Lab9.CalculatorForm.resources
