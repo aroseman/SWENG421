@@ -17,7 +17,9 @@ namespace _421_Lab9
         public void DoIt(char action, TextBox display)
         {
             State.DoIt(this, action);
-            display.Text = Buffer.ToString();
+            display.Text = display.Text +  Buffer.ToString();
+            Buffer = Int32.Parse(display.Text);
+            Console.WriteLine(Buffer);
         }
     }
 }
