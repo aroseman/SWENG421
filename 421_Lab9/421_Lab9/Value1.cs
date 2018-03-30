@@ -17,7 +17,10 @@ namespace _421_Lab9
             else if ((action >= 42 && action <= 43) || (action >= 45 && action <= 47))
             {
                 // Do some action here and then transition.
-                context.State = new OperatorEntered();
+                /*Idea is to store what we have into Value 2, and reset buffer1 to 0. */
+
+                context.State = new OperatorEntered(action);
+
             }
             // Special Operations (sqrt, 1/x, = etc...).
             else if (action == 251 || action == 61 || action == 171)
