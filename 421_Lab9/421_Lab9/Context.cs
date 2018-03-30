@@ -21,7 +21,15 @@ namespace _421_Lab9
             State.DoIt(this, action);
             if (display.Text != "0")
             {
-                display.Text = display.Text + Buffer.ToString();
+                if (Buffer == -1)
+                {
+                    Buffer = 0;
+                    display.Text = Buffer.ToString();
+                }
+                else
+                {
+                    display.Text = display.Text + Buffer.ToString();
+                }
             }
             else
             {

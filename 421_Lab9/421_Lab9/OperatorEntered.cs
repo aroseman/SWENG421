@@ -34,6 +34,7 @@ namespace _421_Lab9
         }
         public void DoIt(Context currentState, char action)
         {
+            /*Only does this when it is pressed for the second time. */
             currentState.storedOperation = action;
         }
     }
