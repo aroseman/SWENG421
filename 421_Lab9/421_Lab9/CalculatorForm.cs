@@ -68,5 +68,20 @@ namespace _421_Lab9
         {
             Context.DoIt('*', displayTB);
         }
+
+        private void divBtn_Click(object sender, EventArgs e)
+        {
+            Context.DoIt('/', displayTB);
+        }
+
+        private void subBtn_Click(object sender, EventArgs e)
+        {
+            Context.DoIt('-', displayTB);
+        }
+
+        private void addBtn_Click(object sender, EventArgs e)
+        {
+            Context.DoIt('+', displayTB);
+        }
     }
 }

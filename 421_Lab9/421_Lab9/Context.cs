@@ -13,7 +13,7 @@ namespace _421_Lab9
         public Context()
         {
             State = new Value1();
-            
+            Buffer2 = 0;
         }
 
         public void DoIt(char action, TextBox display)

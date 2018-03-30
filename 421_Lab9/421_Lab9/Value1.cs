@@ -20,19 +20,22 @@ namespace _421_Lab9
                 /*Idea is to store what we have into Value 2, and reset buffer1 to 0. */
                 context.Buffer2 = context.Buffer;
                 context.Buffer = -1;
-                context.State = new OperatorEntered(action);
+                context.State = new OperatorEntered(context, action);
+                context.State = new Value1();
                 
 
             }
             // Special Operations (sqrt, 1/x, = etc...).
             else if (action == 251 || action == 61 || action == 171)
             {
-                context.State = new PrintResult();
+                context.State = new PrintResult(context, action);
+                context.State = new Value1();
             }
             // Clear and backspace operation.
             else if (action == 67 || action == 66)
             {
                 context.Buffer = 0;
+                context.Buffer2 = 0;
                 context.State = new Value1();
             }
         }

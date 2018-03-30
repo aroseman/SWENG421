@@ -4,33 +4,35 @@ namespace _421_Lab9
 {
     public class OperatorEntered:IState
     {
-        char operation;
-        public OperatorEntered(char inVal)
+        
+        public OperatorEntered(Context mycontext, char inVal)
         {
             if (inVal == 42)
             {
-                operation = '*';
+                mycontext.storedOperation = '*';
             }
             else if (inVal == 43)
             {
-                operation = '+';
+                mycontext.storedOperation = '+';
             }
             else if (inVal == 45)
             {
-                operation = '-';
+                mycontext.storedOperation = '-';
             }
             else if (inVal == 46)
             {
-                operation = '.';
+                mycontext.storedOperation = '.';
             }
             else if (inVal == 47)
             {
-                operation = '/';
+                mycontext.storedOperation = '/';
             }
             else
             {
-                operation = 'X';
+                mycontext.storedOperation = 'X';
             }
+
+           
         }
         public void DoIt(Context currentState, char action)
         {

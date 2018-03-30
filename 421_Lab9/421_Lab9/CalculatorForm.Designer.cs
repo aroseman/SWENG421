@@ -201,6 +201,7 @@
             this.addBtn.TabIndex = 13;
             this.addBtn.Text = "+";
             this.addBtn.UseVisualStyleBackColor = true;
+            this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
             // subBtn
             // 
@@ -211,6 +212,7 @@
             this.subBtn.TabIndex = 14;
             this.subBtn.Text = "-";
             this.subBtn.UseVisualStyleBackColor = true;
+            this.subBtn.Click += new System.EventHandler(this.subBtn_Click);
             // 
             // multBtn
             // 
@@ -232,6 +234,7 @@
             this.divBtn.TabIndex = 16;
             this.divBtn.Text = "/";
             this.divBtn.UseVisualStyleBackColor = true;
+            this.divBtn.Click += new System.EventHandler(this.divBtn_Click);
             // 
             // signBtn
             // 
