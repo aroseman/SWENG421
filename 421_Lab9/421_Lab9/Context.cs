@@ -7,6 +7,8 @@ namespace _421_Lab9
     {
         public IState State { get; set; }
         public int Buffer { get; set; }
+        public int Buffer2 { get; set; }
+        public char storedOperation { get; set; }
 
         public Context()
         {

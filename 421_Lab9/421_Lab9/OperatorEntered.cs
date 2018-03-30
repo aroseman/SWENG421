@@ -34,7 +34,7 @@ namespace _421_Lab9
         }
         public void DoIt(Context currentState, char action)
         {
-            throw new System.NotImplementedException();
+            currentState.storedOperation = action;
         }
     }
 }

@@ -18,8 +18,9 @@ namespace _421_Lab9
             {
                 // Do some action here and then transition.
                 /*Idea is to store what we have into Value 2, and reset buffer1 to 0. */
-
+                context.Buffer2 = context.Buffer;
                 context.State = new OperatorEntered(action);
+                
 
             }
             // Special Operations (sqrt, 1/x, = etc...).

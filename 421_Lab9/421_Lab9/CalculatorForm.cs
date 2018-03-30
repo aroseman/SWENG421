@@ -64,5 +64,9 @@ namespace _421_Lab9
         {
             Context.DoIt('9', displayTB);
         }
+        private void multBtn_Click(object sender, EventArgs e)
+        {
+            Context.DoIt('*', displayTB);
+        }
     }
 }
