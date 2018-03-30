@@ -17,8 +17,24 @@ namespace _421_Lab9
         public void DoIt(char action, TextBox display)
         {
             State.DoIt(this, action);
-            display.Text = display.Text +  Buffer.ToString();
-            Buffer = Int32.Parse(display.Text);
+            if (display.Text != "0")
+            {
+                display.Text = display.Text + Buffer.ToString();
+            }
+            else
+            {
+                display.Text = Buffer.ToString();   
+            }
+
+            try
+            {
+                Buffer = Int32.Parse(display.Text);
+            }
+            catch (Exception e)
+            {
+                display.Text = "ERROR";
+            }
+            
             Console.WriteLine(Buffer);
         }
     }

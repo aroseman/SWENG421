@@ -27,6 +27,7 @@ namespace _421_Lab9
             // Clear and backspace operation.
             else if (action == 67 || action == 66)
             {
+                context.Buffer = 0;
                 context.State = new Value1();
             }
         }
