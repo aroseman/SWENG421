@@ -51,6 +51,7 @@
     <Compile Include="CalculatorForm.Designer.cs">
       <DependentUpon>CalculatorForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Context.cs" />
     <Compile Include="OperatorEntered.cs" />
     <Compile Include="PrintResult.cs" />
     <Compile Include="Program.cs" />

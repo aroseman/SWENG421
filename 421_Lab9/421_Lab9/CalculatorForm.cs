@@ -12,17 +12,17 @@ namespace _421_Lab9
 {
     public partial class CalculatorForm : Form
     {
-        public State State { get; private set; }
-        public double Value1 { get; private set; }
-        public double Value2 { get; private set; }
-        public double Result { get; private set; }
+       public static Context Context;
         
         public CalculatorForm()
         {
-            
-            State = new Value1();
-            Value1 = 0;
+            Context = new Context();
             InitializeComponent();
+        }
+
+        private void oneBtn_Click(object sender, EventArgs e)
+        {
+            Context.DoIt('1', displayTB);
         }
     }
 }

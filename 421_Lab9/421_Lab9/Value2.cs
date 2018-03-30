@@ -1,13 +1,11 @@
-﻿namespace _421_Lab9
-{
-    public class Value2:State
-    {
-        public override State NextState(State s)
-        {
-            throw new System.NotImplementedException();
-        }
+﻿using System.Windows.Forms;
 
-        public override void DoIt()
+namespace _421_Lab9
+{
+    public class Value2:IState
+    {
+
+        public void DoIt(Context context, char action)
         {
             throw new System.NotImplementedException();
         }

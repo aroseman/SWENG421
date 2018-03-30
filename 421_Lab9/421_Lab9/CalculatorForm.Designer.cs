@@ -101,6 +101,7 @@
             this.oneBtn.TabIndex = 4;
             this.oneBtn.Text = "1";
             this.oneBtn.UseVisualStyleBackColor = true;
+            this.oneBtn.Click += new System.EventHandler(this.oneBtn_Click);
             // 
             // sixBtn
             // 
@@ -270,7 +271,7 @@
             this.displayTB.Size = new System.Drawing.Size(198, 20);
             this.displayTB.TabIndex = 21;
             // 
-            // Form1
+            // CalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -297,7 +298,7 @@
             this.Controls.Add(this.threeBtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.zeroBtn);
-            this.Name = "Form1";
+            this.Name = "CalculatorForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

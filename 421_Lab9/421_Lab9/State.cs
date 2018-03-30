@@ -1,8 +1,11 @@
-﻿namespace _421_Lab9
+﻿using System.Windows.Forms;
+
+namespace _421_Lab9
 {
-    public abstract class State
+    public interface IState
     {
-        public abstract State NextState(State s);
-        public abstract void DoIt();
+        
+         void DoIt(Context context, char action);
+         
     }
 }
