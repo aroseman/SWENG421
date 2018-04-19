@@ -1,0 +1,9 @@
+\\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\bin\Debug\HospitalSystem.exe.config
+\\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\bin\Debug\HospitalSystem.exe
+\\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\bin\Debug\HospitalSystem.pdb
+\\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.csprojResolveAssemblyReference.cache
+\\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.Login.resources
+\\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.Properties.Resources.resources
+\\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.csproj.GenerateResource.Cache
+\\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.exe
+\\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.pdb
