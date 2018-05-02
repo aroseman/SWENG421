@@ -14,12 +14,14 @@ namespace HospitalSystem
             try
             {
                 HospitalPerson newHospotalPerson = Activator.CreateInstance(null, "HospitalSystem." + type);
-                return newHospitalPerson;
+                return newHospotalPerson;
             }
             catch (System.Exception exc1)
             {
                 Console.WriteLine("Exception: {0}", exc1.ToString());
             }
         }
+
+
     }
 }
