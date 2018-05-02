@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace HospitalSystem
 {
-    interface AdminThingIF
+    interface HospitalPersonFactoryIF
     {
-        AdminThingIF Enroll(string mystring);
+        HospitalPersonFactoryIF Enroll(string mystring);
     }
 }
