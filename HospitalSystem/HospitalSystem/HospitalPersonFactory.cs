@@ -11,21 +11,14 @@ namespace HospitalSystem
         //I know this does not compile. Hospital person would just be a proper person from the hospital
         public HospitalPerson Enroll(string type)
         {
-            if (String.Equals(type, "patient")
-                {
-                return new patient();
-            }
-            else if (String.Equals(type, "doctor"))
+            try
             {
-                return new doctor();
+                HospitalPerson newHospotalPerson = Activator.CreateInstance(null, "HospitalSystem." + type);
+                return newHospitalPerson;
             }
-            else if (String.Equals(type, nurse))
+            catch (System.Exception exc1)
             {
-                return new nurse();
-            }
-            else
-            {
-                Console.WriteLine("Invalid input");
+                Console.WriteLine("Exception: {0}", exc1.ToString);
             }
         }
     }
