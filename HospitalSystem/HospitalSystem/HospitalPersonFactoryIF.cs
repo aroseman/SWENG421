@@ -8,6 +8,7 @@ namespace HospitalSystem
 {
     interface HospitalPersonFactoryIF
     {
+        //Change the return type here so it fits with the structure better.
         HospitalPersonFactoryIF Enroll(string mystring);
     }
 }

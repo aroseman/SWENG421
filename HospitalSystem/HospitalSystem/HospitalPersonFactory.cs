@@ -18,7 +18,7 @@ namespace HospitalSystem
             }
             catch (System.Exception exc1)
             {
-                Console.WriteLine("Exception: {0}", exc1.ToString);
+                Console.WriteLine("Exception: {0}", exc1.ToString());
             }
         }
     }
