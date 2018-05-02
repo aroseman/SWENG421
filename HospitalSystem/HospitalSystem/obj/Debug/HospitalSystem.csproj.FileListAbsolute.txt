@@ -7,3 +7,12 @@
 \\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.csproj.GenerateResource.Cache
 \\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.exe
 \\PSBDFILESRVR.PSU-ERIE.BD.PSU.EDU\STUDENT\amr6163\Private\Documents\Visual Studio 2015\Projects\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.pdb
+C:\Users\Connor\Documents\SWENG 421\SWENG421\HospitalSystem\HospitalSystem\bin\Debug\HospitalSystem.exe.config
+C:\Users\Connor\Documents\SWENG 421\SWENG421\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.exe
+C:\Users\Connor\Documents\SWENG 421\SWENG421\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.pdb
+C:\Users\Connor\Documents\SWENG 421\SWENG421\HospitalSystem\HospitalSystem\bin\Debug\HospitalSystem.exe
+C:\Users\Connor\Documents\SWENG 421\SWENG421\HospitalSystem\HospitalSystem\bin\Debug\HospitalSystem.pdb
+C:\Users\Connor\Documents\SWENG 421\SWENG421\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.csprojResolveAssemblyReference.cache
+C:\Users\Connor\Documents\SWENG 421\SWENG421\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.Login.resources
+C:\Users\Connor\Documents\SWENG 421\SWENG421\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.Properties.Resources.resources
+C:\Users\Connor\Documents\SWENG 421\SWENG421\HospitalSystem\HospitalSystem\obj\Debug\HospitalSystem.csproj.GenerateResource.Cache
